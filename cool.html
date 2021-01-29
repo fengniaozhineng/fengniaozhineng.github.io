@@ -1,0 +1,93 @@
+<html lang="en">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="https://i.loli.net/2020/12/16/quwQYokbhsUX8Wt.jpg" type="image/x-icon">
+	<title>小兔子的故事</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background: pink);
+		}
+
+		#demo {
+			max-width: 500px;
+			margin: 0 auto;
+			font-size: 15px;
+			line-height: 24px;
+			padding: 0 10px;
+			color: rgb(92, 29, 165);
+		}
+
+		@media (max-width: 600px) {
+			#demo {
+				font-size: 20px;
+				line-height: 30px;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<div id="demo"></div>
+	<div style="display:none" id="w">
+		森林里有一只小呀小白兔。　　
+
+		小白兔的皮肤特别特别的好，有很多很多的小动物羡慕小白兔那耀眼的白皮肤。　　
+
+		可是小白兔不喜欢被别人叫小白兔，领起来像个小白痴一样的小白兔这个名字，听起来总是不让人那么顺心。
+
+		她只是一只可爱的小兔子，她更喜欢别的颜色。　　
+
+		小兔兔看着绿油油的草地，心里想着，我要是绿色的小兔兔就好了。
+
+		于是，小兔子在草地上打着滚，想要把小草的颜色吸收过来。　　
+
+		小兔兔没有变成绿色，却弄了一身的泥土。小兔兔玩的累啦。
+
+		她躺在草地上看着天空，天空是深邃的蓝色。小兔兔又觉得，自己如果是蓝色的兔子就好了。　　
+
+		小兔兔不喜欢自己身上的单调的白色。　　
+
+		小兔子看着森林里面，有黄色的小松鼠，黑色的大黑牛，带着鳞片波光闪闪的鱼，还有青色蓝色的孔雀。
+
+		小兔兔每次看到他们，都会觉得自己的毛发是那么的单调乏味，没有一点闪光点，哪怕小兔子是全森林小兔子中最白的那只。　　
+
+		有一天，小兔子躲在萝卜屋子里，看着窗外的大雨。她不能出去看别的颜色了，不过，天很快就晴了，
+
+		小兔子看到了七色的彩虹：“如果自己也可以变成一只彩虹兔，该有多好啊。”　　
+
+		小兔兔走着蹦跳着，忽然迎面看到了一只猪朝着自己走了过来。　　
+
+		猪猪也看到了小白兔了。他把放在身子后面的东西藏好，收拾了一下内心的绮念，向着小白兔走了过去。　　
+
+		“那个，小兔兔你好。”小猪猪有些紧张，一句话都要吞吞吐吐半天。　　
+
+		“嗯？有什么事情吗。”小白兔愣了一下，她还在想着如果自己是一只彩虹色的兔子该有多好啊。　　
+
+		“那个，你能做我女朋友吗！”猪猪忽然从后面拿出了一捧鲜花。　　
+
+		小兔兔显然没有准备好，她呆呆地站在那里：“可是我不好看啊，你看我浑身上下都是雪白的毛发，多单调啊。”　　
+
+		“你好看，小兔兔，你是全森林里最好看的小动物了，我，，我喜欢你很久很久了。”小猪猪赞美着小兔兔，小兔兔有些不好意思了起来。　　
+
+		“可是，可是你是粉色的啊，粉色的小猪猪，我觉得你很可爱。。我就是一只纯白色的兔子。。我配不上你。”　　
+
+		“傻兔子，谁说你是纯白色的啦？”小猪猪调笑着。　　
+
+		“看看你的脸呀~你现在分明就是红色的了。”
+	</div>
+	<script language="javascript">
+		var index = 0;
+		var word = document.getElementById("w").innerHTML;
+
+		function type() {
+			document.getElementById("demo").innerText = word.substring(0, index++);
+		}
+		setInterval(type, 200);
+	</script>
+</body>
+
+</html>
